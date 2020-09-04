@@ -60,12 +60,14 @@ class Game():
 
     def game_over(self):
         if self.missed == 5:
-            print(
-                "="*30, f"\nOh no! Better luck next time {self.name}!\n", "="*30)
+            print("="*30)
+            print(f"\nOh no! Better luck next time {self.name}!\n")
+            print("="*30)
         else:
             print("\nYou're such a Gamer!")
-            print("="*30, "\nCongrats, you've done it!\n", "="*30)
-            print(f"You've done it {self.name}!\n\n")
+            print("="*30)
+            print(f"\nCongrats, you've guessed the word {self.name}!\n")
+            print("="*30)
 
     def again(self):
         option = input(
