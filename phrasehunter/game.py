@@ -42,7 +42,7 @@ class Game():
 
     def start_game(self):
         self.welcome()
-        print(f'Hey {self.name}, ready for fun?', '\nYou got this!')
+        print(f'Hey {self.name}, ready for some fun?', '\nYou got this!')
         while self.missed < 5 and not self.current_phrase.check_phrase_completion(self.guesses):
             print(f'\n\nNumber of wrong guesses: {self.missed}')
             self.current_phrase.display(self.guesses)
