@@ -1,6 +1,6 @@
 import random
 
-from phrasehunter2.phrase import Phrase
+from phrasehunter.phrase import Phrase
 
 
 class Game():
